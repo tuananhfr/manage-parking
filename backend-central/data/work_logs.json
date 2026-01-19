@@ -1,0 +1,800 @@
+[
+  {
+    "id": "1_1768548078",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-16T14:21:18.996550",
+    "end_time": "2026-01-16T14:21:25.028105",
+    "status": "completed",
+    "stats": {
+      "vehicles_in": 0,
+      "vehicles_out": 0,
+      "revenue": 0,
+      "vehicles_parked": 10
+    },
+    "details": {
+      "date": "2026-01-16",
+      "summary": {
+        "vehicles_in": 0,
+        "vehicles_out": 0,
+        "revenue": 0,
+        "vehicles_parked": 10
+      },
+      "records": [
+        {
+          "plate_id": "11A11111",
+          "plate_view": "11A11111",
+          "entry_time": "2026-01-16 13:47:11",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "21A11111",
+          "plate_view": "21A11111",
+          "entry_time": "2026-01-16 13:46:18",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "37A37373",
+          "plate_view": "37A37373",
+          "entry_time": "2026-01-16 12:45:35",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30S1883",
+          "plate_view": "30S1883",
+          "entry_time": "2026-01-13 09:15:43",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "c",
+          "location_time": "2026-01-13 09:57:01",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "98J0531",
+          "plate_view": "98J0531",
+          "entry_time": "2026-01-13 09:14:49",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29G118021",
+          "plate_view": "29G1-18021",
+          "entry_time": "2026-01-13 09:14:27",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "17B400932",
+          "plate_view": "17B4-00932",
+          "entry_time": "2026-01-13 09:14:01",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29N36017",
+          "plate_view": "29N3-6017",
+          "entry_time": "2026-01-13 09:13:45",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30X7198",
+          "plate_view": "30X-7198",
+          "entry_time": "2026-01-13 09:13:21",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29A79435",
+          "plate_view": "29A79435",
+          "entry_time": "2026-01-13 09:12:50",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "bãi 1",
+          "location_time": "2026-01-13 10:00:27",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        }
+      ],
+      "changes": []
+    },
+    "handover": {
+      "notes": "",
+      "revenue": 0
+    }
+  },
+  {
+    "id": "1_1768548087",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-16T14:21:27.173383",
+    "end_time": "2026-01-16T14:31:20.732387",
+    "status": "force_closed",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null,
+    "notes": "System auto-closed due to new login"
+  },
+  {
+    "id": "1_1768548680",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-16T14:31:20.732387",
+    "end_time": "2026-01-16T14:52:34.142832",
+    "status": "completed",
+    "stats": {
+      "vehicles_in": 0,
+      "vehicles_out": 0,
+      "revenue": 0,
+      "vehicles_parked": 10
+    },
+    "details": {
+      "date": "2026-01-16",
+      "summary": {
+        "vehicles_in": 0,
+        "vehicles_out": 0,
+        "revenue": 0,
+        "vehicles_parked": 10
+      },
+      "records": [
+        {
+          "plate_id": "11A11111",
+          "plate_view": "11A11111",
+          "entry_time": "2026-01-16 13:47:11",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "21A11111",
+          "plate_view": "21A11111",
+          "entry_time": "2026-01-16 13:46:18",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "37A37373",
+          "plate_view": "37A37373",
+          "entry_time": "2026-01-16 12:45:35",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30S1883",
+          "plate_view": "30S1883",
+          "entry_time": "2026-01-13 09:15:43",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "c",
+          "location_time": "2026-01-13 09:57:01",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "98J0531",
+          "plate_view": "98J0531",
+          "entry_time": "2026-01-13 09:14:49",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29G118021",
+          "plate_view": "29G1-18021",
+          "entry_time": "2026-01-13 09:14:27",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "17B400932",
+          "plate_view": "17B4-00932",
+          "entry_time": "2026-01-13 09:14:01",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29N36017",
+          "plate_view": "29N3-6017",
+          "entry_time": "2026-01-13 09:13:45",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30X7198",
+          "plate_view": "30X-7198",
+          "entry_time": "2026-01-13 09:13:21",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29A79435",
+          "plate_view": "29A79435",
+          "entry_time": "2026-01-13 09:12:50",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "bãi 1",
+          "location_time": "2026-01-13 10:00:27",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        }
+      ],
+      "changes": []
+    },
+    "handover": {
+      "notes": "",
+      "revenue": 0
+    }
+  },
+  {
+    "id": "1_1768549955",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-16T14:52:35.735565",
+    "end_time": "2026-01-16T17:49:02.849314",
+    "status": "force_closed",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null,
+    "notes": "System auto-closed due to new login"
+  },
+  {
+    "id": "1_1768560542",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-16T17:49:02.849825",
+    "end_time": "2026-01-16T18:19:04.349270",
+    "status": "completed",
+    "stats": {
+      "vehicles_in": 0,
+      "vehicles_out": 0,
+      "revenue": 0,
+      "vehicles_parked": 10
+    },
+    "details": {
+      "date": "2026-01-16",
+      "summary": {
+        "vehicles_in": 0,
+        "vehicles_out": 0,
+        "revenue": 0,
+        "vehicles_parked": 10
+      },
+      "records": [
+        {
+          "plate_id": "11A11111",
+          "plate_view": "11A11111",
+          "entry_time": "2026-01-16 13:47:11",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "21A11111",
+          "plate_view": "21A11111",
+          "entry_time": "2026-01-16 13:46:18",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "37A37373",
+          "plate_view": "37A37373",
+          "entry_time": "2026-01-16 12:45:35",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30S1883",
+          "plate_view": "30S1883",
+          "entry_time": "2026-01-13 09:15:43",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "c",
+          "location_time": "2026-01-13 09:57:01",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "98J0531",
+          "plate_view": "98J0531",
+          "entry_time": "2026-01-13 09:14:49",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29G118021",
+          "plate_view": "29G1-18021",
+          "entry_time": "2026-01-13 09:14:27",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "17B400932",
+          "plate_view": "17B4-00932",
+          "entry_time": "2026-01-13 09:14:01",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29N36017",
+          "plate_view": "29N3-6017",
+          "entry_time": "2026-01-13 09:13:45",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30X7198",
+          "plate_view": "30X-7198",
+          "entry_time": "2026-01-13 09:13:21",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29A79435",
+          "plate_view": "29A79435",
+          "entry_time": "2026-01-13 09:12:50",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "bãi 1",
+          "location_time": "2026-01-13 10:00:27",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        }
+      ],
+      "changes": []
+    },
+    "handover": {
+      "notes": "",
+      "revenue": 0
+    }
+  },
+  {
+    "id": "1_1768562346",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-16T18:19:06.148735",
+    "end_time": "2026-01-17T08:46:33.454529",
+    "status": "force_closed",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null,
+    "notes": "System auto-closed due to new login"
+  },
+  {
+    "id": "1_1768614393",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-17T08:46:33.454529",
+    "end_time": "2026-01-17T09:59:42.826165",
+    "status": "completed",
+    "stats": {
+      "vehicles_in": 0,
+      "vehicles_out": 0,
+      "revenue": 0,
+      "vehicles_parked": 10
+    },
+    "details": {
+      "date": "2026-01-17",
+      "summary": {
+        "vehicles_in": 0,
+        "vehicles_out": 0,
+        "revenue": 0,
+        "vehicles_parked": 10
+      },
+      "records": [
+        {
+          "plate_id": "11A11111",
+          "plate_view": "11A11111",
+          "entry_time": "2026-01-16 13:47:11",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "21A11111",
+          "plate_view": "21A11111",
+          "entry_time": "2026-01-16 13:46:18",
+          "entry_camera": "📹 demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "37A37373",
+          "plate_view": "37A37373",
+          "entry_time": "2026-01-16 12:45:35",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30S1883",
+          "plate_view": "30S1883",
+          "entry_time": "2026-01-13 09:15:43",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "c",
+          "location_time": "2026-01-13 09:57:01",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "98J0531",
+          "plate_view": "98J0531",
+          "entry_time": "2026-01-13 09:14:49",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29G118021",
+          "plate_view": "29G1-18021",
+          "entry_time": "2026-01-13 09:14:27",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "17B400932",
+          "plate_view": "17B4-00932",
+          "entry_time": "2026-01-13 09:14:01",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29N36017",
+          "plate_view": "29N3-6017",
+          "entry_time": "2026-01-13 09:13:45",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "30X7198",
+          "plate_view": "30X-7198",
+          "entry_time": "2026-01-13 09:13:21",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": null,
+          "location_time": null,
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        },
+        {
+          "plate_id": "29A79435",
+          "plate_view": "29A79435",
+          "entry_time": "2026-01-13 09:12:50",
+          "entry_camera": "demo",
+          "exit_time": null,
+          "exit_camera": null,
+          "location": "bãi 1",
+          "location_time": "2026-01-13 10:00:27",
+          "duration": null,
+          "status": "IN",
+          "is_anomaly": false,
+          "customer_type": "guest"
+        }
+      ],
+      "changes": []
+    },
+    "handover": {
+      "notes": "",
+      "revenue": 0
+    }
+  },
+  {
+    "id": "1_1768618786",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-17T09:59:46.462874",
+    "end_time": "2026-01-18T22:15:26.442449",
+    "status": "force_closed",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null,
+    "notes": "System auto-closed due to new login"
+  },
+  {
+    "id": "1_1768749326",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-18T22:15:26.442449",
+    "end_time": "2026-01-18T22:23:55.891922",
+    "status": "force_closed",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null,
+    "notes": "System auto-closed due to new login"
+  },
+  {
+    "id": "1_1768749835",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-18T22:23:55.891922",
+    "end_time": "2026-01-19T10:24:41.661027",
+    "status": "force_closed",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null,
+    "notes": "System auto-closed due to new login"
+  },
+  {
+    "id": "1_1768793081",
+    "user_id": 1,
+    "user_name": "admin",
+    "start_time": "2026-01-19T10:24:41.661027",
+    "end_time": null,
+    "status": "ongoing",
+    "stats": {
+      "vehicles_in": null,
+      "vehicles_out": null,
+      "revenue": null,
+      "vehicles_parked": null
+    },
+    "details": null,
+    "handover": null
+  }
+]

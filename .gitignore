@@ -1,0 +1,318 @@
+# ============================================
+# Python - Unified App & Backend Central
+# ============================================
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+unified_app/env/
+backend-central/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================
+# Node.js - Backend & Frontend
+# ============================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# ============================================
+# Database Files
+# ============================================
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Database files in data folders
+backend-central/data/*.db
+unified_app/*.db
+backend/*.db
+
+# ============================================
+# Model Files (ONNX) - Uncomment nếu muốn ignore
+# ============================================
+
+unified_app/models/*.onnx
+backend-central/models/*.onnx
+
+# ============================================
+# Logs & Temporary Files
+# ============================================
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.nul
+nul
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IntelliJ IDEA / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# OS Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Environment & Config Files
+# ============================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Config files với sensitive data (uncomment nếu cần)
+# config.yaml
+# config.py
+# *.config.json
+
+# ============================================
+# Uploads & User Content
+# ============================================
+
+# Upload directories
+uploads/
+timelapse/
+backend-central/timelapse/
+backend/timelapse/
+recordings/
+unified_app/recordings/
+
+# ============================================
+# Executables & Binaries
+# ============================================
+
+# Windows executables
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# Large Media Files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.jpg
+*.png
+!public/*.png
+!public/*.jpg
+!src/assets/*.png
+!src/assets/*.jpg
+
+# Frontend Logs
+lint_report.json
+lint_report.txt
+build_log.txt
+build_log_utf8.txt
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# Go2RTC (nếu muốn ignore)
+go2rtc.exe
+go2rtc.yaml
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Backup files
+*.backup
+*.bak
+*.old
+*_backup.*
+*.backup.*
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# ============================================
+# Keep Important Files
+# ============================================
+
+# Keep config templates
+!config.yaml.example
+!config.py.example
+!*.example
+
+# Keep README files
+!README.md
+!**/README.md
+

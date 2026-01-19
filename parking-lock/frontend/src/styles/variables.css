@@ -1,0 +1,211 @@
+/**
+ * Design System Variables
+ * Modern, Minimal, Professional Theme for Parking Lock Management
+ */
+
+:root {
+  /* ========================================
+     COLOR PALETTE - Refined & Professional
+     ======================================== */
+
+  /* Primary - Deep Blue (Trust, Technology) */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-light: #dbeafe;
+  --color-primary-dark: #1e40af;
+
+  /* Secondary - Slate Gray (Neutral, Modern) */
+  --color-secondary: #64748b;
+  --color-secondary-hover: #475569;
+  --color-secondary-light: #f1f5f9;
+  --color-secondary-dark: #334155;
+
+  /* Success - Emerald Green */
+  --color-success: #10b981;
+  --color-success-hover: #059669;
+  --color-success-light: #d1fae5;
+  --color-success-dark: #047857;
+
+  /* Warning - Amber */
+  --color-warning: #f59e0b;
+  --color-warning-hover: #d97706;
+  --color-warning-light: #fef3c7;
+  --color-warning-dark: #b45309;
+
+  /* Danger - Rose Red */
+  --color-danger: #ef4444;
+  --color-danger-hover: #dc2626;
+  --color-danger-light: #fee2e2;
+  --color-danger-dark: #b91c1c;
+
+  /* Info - Sky Blue */
+  --color-info: #0ea5e9;
+  --color-info-hover: #0284c7;
+  --color-info-light: #e0f2fe;
+  --color-info-dark: #0369a1;
+
+  /* Neutrals - Clean & Modern */
+  --color-white: #ffffff;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  --color-bg-tertiary: #f3f4f6;
+  --color-bg-dark: #1f2937;
+
+  /* Border Colors */
+  --color-border: #e5e7eb;
+  --color-border-light: #f3f4f6;
+  --color-border-dark: #d1d5db;
+
+  /* Text Colors */
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-text-tertiary: #9ca3af;
+  --color-text-inverse: #ffffff;
+
+  /* ========================================
+     TYPOGRAPHY - Clean & Readable
+     ======================================== */
+
+  /* Font Families */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* ========================================
+     SPACING - Consistent Rhythm
+     ======================================== */
+
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;   /* 4px */
+  --spacing-2: 0.5rem;    /* 8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.25rem;   /* 20px */
+  --spacing-6: 1.5rem;    /* 24px */
+  --spacing-8: 2rem;      /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+
+  /* ========================================
+     LAYOUT
+     ======================================== */
+
+  /* Container Max Widths */
+  --container-max-width: 1440px;
+  --container-padding: var(--spacing-6);
+
+  /* Sidebar */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 80px;
+
+  /* Header */
+  --header-height: 64px;
+
+  /* ========================================
+     BORDERS & RADIUS
+     ======================================== */
+
+  --border-width: 1px;
+  --border-width-thick: 2px;
+
+  --radius-sm: 0.375rem;  /* 6px */
+  --radius-md: 0.5rem;    /* 8px */
+  --radius-lg: 0.75rem;   /* 12px */
+  --radius-xl: 1rem;      /* 16px */
+  --radius-2xl: 1.5rem;   /* 24px */
+  --radius-full: 9999px;
+
+  /* ========================================
+     SHADOWS - Subtle & Layered
+     ======================================== */
+
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* ========================================
+     TRANSITIONS
+     ======================================== */
+
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ========================================
+     Z-INDEX LAYERS
+     ======================================== */
+
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+
+  /* ========================================
+     STATUS COLORS (Parking Lock Specific)
+     ======================================== */
+
+  /* Locker Status */
+  --status-available: var(--color-success);
+  --status-available-bg: var(--color-success-light);
+  --status-occupied: var(--color-danger);
+  --status-occupied-bg: var(--color-danger-light);
+  --status-locked: var(--color-warning);
+  --status-locked-bg: var(--color-warning-light);
+
+  /* Device Status */
+  --status-online: var(--color-success);
+  --status-online-bg: var(--color-success-light);
+  --status-offline: var(--color-gray-400);
+  --status-offline-bg: var(--color-gray-200);
+  --status-error: var(--color-danger);
+  --status-error-bg: var(--color-danger-light);
+}
+
+/* ========================================
+   DARK MODE VARIABLES (Optional Future Enhancement)
+   ======================================== */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Note: Dark mode can be implemented in future if needed */
+  }
+}

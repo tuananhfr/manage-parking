@@ -1,0 +1,28 @@
+[
+  {
+    "id": "nvr_1",
+    "name": "Khu A NVR",
+    "host": "192.168.0.93",
+    "port": 5000,
+    "device_id": "nvr_1",
+    "go2rtc_url": "http://192.168.0.93:1984",
+    "go2rtc_rtsp_port": 8554,
+    "go2rtc_webrtc_port": 8555,
+    "cameras": [],
+    "description": "test nvr",
+    "enabled": true
+  },
+  {
+    "id": "nvr_2",
+    "name": "Khu B NVR",
+    "host": "192.168.0.144",
+    "port": 5000,
+    "device_id": "nvr_2",
+    "go2rtc_url": "http://192.168.0.144:1984",
+    "go2rtc_rtsp_port": 8554,
+    "go2rtc_webrtc_port": 8555,
+    "cameras": [],
+    "description": "",
+    "enabled": true
+  }
+]

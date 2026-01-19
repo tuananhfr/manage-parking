@@ -1,0 +1,44 @@
+central:
+  device_id: nvr_2
+  enabled: true
+  url: http://192.168.1.104:8000
+cleanup:
+  enabled: true
+  recordings_retention_days: 30
+  schedule: 03:00
+  timelapse_retention_days: 90
+device_id: nvr_2
+fps:
+  detection_fps: 10.0
+  stream_fps: 30.0
+go2rtc:
+  binary_path: ''
+  enabled: true
+metadata:
+  a:
+    name: demo
+    type: rtsp
+    camera_type: internal
+    enable_detection: true
+model:
+  path: best.onnx
+ocr:
+  path: ocr.onnx
+recording:
+  segment_seconds: 300
+streams:
+  a: rtsp://tuananh:tuananh123@192.168.0.68:554/stream1#input=rtsp_tcp
+target_server:
+  ip: 192.168.1.104
+  port: 8000
+timelapse:
+  cycle_seconds: 900
+  enabled: true
+  fps: 30
+  interval_seconds: 5
+voting:
+  dedup_interval: 15.0
+  enabled: true
+  min_votes: 2
+  similarity_threshold: 0.85
+  window_seconds: 1.5

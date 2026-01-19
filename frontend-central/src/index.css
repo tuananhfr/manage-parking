@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Camera Grid - 4x4 Layout */
+.camera-grid-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.camera-grid {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+}
+
+/* Connection Status Banner Animation */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Header Stats - Left aligned */
+.stats-container-left {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.stats-item {
+  flex: 1;
+  text-align: center;
+  padding: 0 16px;
+  min-width: 120px;
+  white-space: nowrap;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+  .stats-item {
+    padding: 0 12px;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .stats-item {
+    padding: 0 10px;
+    min-width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-container-left {
+    margin-left: 4px;
+  }
+  .stats-item {
+    padding: 0 8px;
+    min-width: 70px;
+  }
+  .stats-item .fw-bold {
+    font-size: 0.9rem !important;
+  }
+  .stats-item .text-white-50 {
+    font-size: 0.65rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .stats-container-left {
+    margin-left: 4px;
+  }
+  .stats-item {
+    padding: 0 4px;
+    min-width: 60px;
+  }
+  .stats-item .fw-bold {
+    font-size: 0.85rem !important;
+  }
+  .stats-item .text-white-50 {
+    font-size: 0.6rem !important;
+  }
+}
+
+/* Camera Thumbnail Hover Effect */
+.camera-thumbnail:hover {
+  border-color: var(--bs-primary) !important;
+}
+
+/* Drag and Drop Styles */
+.drag-over {
+  border: 2px dashed var(--bs-primary) !important;
+  background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+}
+
+/* Parking Locker Cards */
+.locker-card {
+  position: relative;
+  min-height: 80px;
+}
+
+.locker-card:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.locker-card .card-body {
+  padding: 0.5rem;
+}
+
+/* Accordion styling for parking */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: var(--bs-primary);
+}
+
+/* Dark Theme Modal Styling */
+.modal-content.bg-dark {
+  --modal-bg: #1a1a2e;
+  --modal-border: #2d3748;
+  --input-bg: #0d1117;
+  --input-border: #30363d;
+  --card-bg: #161b22;
+}
+
+/* Dark theme for nav-tabs inside dark modals */
+.modal-content.bg-dark .nav-tabs {
+  border-bottom-color: var(--input-border);
+}
+
+.modal-content.bg-dark .nav-tabs .nav-link {
+  color: #8b949e;
+  border: 1px solid transparent;
+  border-radius: 6px 6px 0 0;
+}
+
+.modal-content.bg-dark .nav-tabs .nav-link:hover {
+  color: #c9d1d9;
+  border-color: var(--input-border) var(--input-border) transparent;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.modal-content.bg-dark .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: var(--input-bg);
+  border-color: var(--input-border) var(--input-border) var(--input-bg);
+}
+
+/* Dark theme for form controls inside dark modals */
+.modal-content.bg-dark .form-control,
+.modal-content.bg-dark .form-select {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+  color: #c9d1d9;
+}
+
+.modal-content.bg-dark .form-control:focus,
+.modal-content.bg-dark .form-select:focus {
+  background-color: var(--input-bg);
+  border-color: #58a6ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.15);
+}
+
+.modal-content.bg-dark .form-control::placeholder {
+  color: #6e7681;
+}
+
+/* Dark theme for input-group */
+.modal-content.bg-dark .input-group-text {
+  background-color: var(--card-bg);
+  border-color: var(--input-border);
+  color: #8b949e;
+}
+
+/* Dark theme for cards inside dark modals */
+.modal-content.bg-dark .card {
+  background-color: var(--card-bg);
+  border-color: var(--input-border);
+}
+
+.modal-content.bg-dark .card-header {
+  background-color: rgba(255, 255, 255, 0.03);
+  border-bottom-color: var(--input-border);
+}
+
+/* Dark theme for list-group inside dark modals */
+.modal-content.bg-dark .list-group-item {
+  background-color: var(--card-bg);
+  border-color: var(--input-border);
+  color: #c9d1d9;
+}
+
+.modal-content.bg-dark .list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Dark theme for alerts inside dark modals */
+.modal-content.bg-dark .alert-info {
+  background-color: rgba(56, 139, 253, 0.1);
+  border-color: rgba(56, 139, 253, 0.4);
+  color: #79c0ff;
+}
+
+.modal-content.bg-dark .alert-danger {
+  background-color: rgba(248, 81, 73, 0.1);
+  border-color: rgba(248, 81, 73, 0.4);
+  color: #ff7b72;
+}
+
+.modal-content.bg-dark .alert-success {
+  background-color: rgba(63, 185, 80, 0.1);
+  border-color: rgba(63, 185, 80, 0.4);
+  color: #7ee787;
+}
+
+.modal-content.bg-dark .alert-warning {
+  background-color: rgba(210, 153, 34, 0.1);
+  border-color: rgba(210, 153, 34, 0.4);
+  color: #f0c14b;
+}
+
+/* Dark theme for table inside dark modals */
+.modal-content.bg-dark .table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #c9d1d9;
+  --bs-table-border-color: var(--input-border);
+}
+
+/* Text colors */
+.modal-content.bg-dark .text-muted {
+  color: #8b949e !important;
+}
+
+.modal-content.bg-dark .border-bottom {
+  border-bottom-color: var(--input-border) !important;
+}
+
+/* Form check/switch inside dark modals */
+.modal-content.bg-dark .form-check-input {
+  background-color: var(--input-bg);
+  border-color: var(--input-border);
+}
+
+.modal-content.bg-dark .form-check-input:checked {
+  background-color: #238636;
+  border-color: #238636;
+}
+
+/* Label colors inside dark modals */
+.modal-content.bg-dark .form-label,
+.modal-content.bg-dark .card-title,
+.modal-content.bg-dark label {
+  color: #c9d1d9;
+}

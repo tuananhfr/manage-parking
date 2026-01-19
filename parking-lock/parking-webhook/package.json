@@ -1,0 +1,28 @@
+{
+  "name": "parking-webhook-server",
+  "version": "1.0.0",
+  "description": "Webhook server to receive Sepay payment notifications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "webhook",
+    "sepay",
+    "parking",
+    "payment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

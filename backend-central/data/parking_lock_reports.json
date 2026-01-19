@@ -1,0 +1,716 @@
+[
+  {
+    "id": 1768551029864,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 15:10:29",
+    "stats": {
+      "total_sessions": 0,
+      "completed_sessions": 0,
+      "in_progress_sessions": 0,
+      "total_revenue": 0,
+      "single_tickets": 0,
+      "monthly_tickets": 0
+    }
+  },
+  {
+    "id": 1768551296494,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 15:14:56",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN"
+              },
+              {
+                "lock_id": "PK001-02",
+                "label": "Lock PK001-02",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-03",
+                "label": "Lock PK001-03",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-04",
+                "label": "Lock PK001-04",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-05",
+                "label": "Lock PK001-05",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-06",
+                "label": "Lock PK001-06",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-07",
+                "label": "Lock PK001-07",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-08",
+                "label": "Lock PK001-08",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-09",
+                "label": "Lock PK001-09",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-10",
+                "label": "Lock PK001-10",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-11",
+                "label": "Lock PK001-11",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-12",
+                "label": "Lock PK001-12",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-13",
+                "label": "Lock PK001-13",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-14",
+                "label": "Lock PK001-14",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-15",
+                "label": "Lock PK001-15",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-16",
+                "label": "Lock PK001-16",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-17",
+                "label": "Lock PK001-17",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-18",
+                "label": "Lock PK001-18",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-19",
+                "label": "Lock PK001-19",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-20",
+                "label": "Lock PK001-20",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-21",
+                "label": "Lock PK001-21",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-22",
+                "label": "Lock PK001-22",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-23",
+                "label": "Lock PK001-23",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-24",
+                "label": "Lock PK001-24",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-25",
+                "label": "Lock PK001-25",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-26",
+                "label": "Lock PK001-26",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-27",
+                "label": "Lock PK001-27",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-28",
+                "label": "Lock PK001-28",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-29",
+                "label": "Lock PK001-29",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-30",
+                "label": "Lock PK001-30",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-31",
+                "label": "Lock PK001-31",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK001-32",
+                "label": "Lock PK001-32",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              }
+            ]
+          },
+          {
+            "device_id": "PK002",
+            "name": "Device PK002",
+            "lockers": [
+              {
+                "lock_id": "PK002-01",
+                "label": "Lock PK002-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-02",
+                "label": "Lock PK002-02",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-03",
+                "label": "Lock PK002-03",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-04",
+                "label": "Lock PK002-04",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-05",
+                "label": "Lock PK002-05",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-06",
+                "label": "Lock PK002-06",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-07",
+                "label": "Lock PK002-07",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-08",
+                "label": "Lock PK002-08",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-09",
+                "label": "Lock PK002-09",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-10",
+                "label": "Lock PK002-10",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-11",
+                "label": "Lock PK002-11",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-12",
+                "label": "Lock PK002-12",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-13",
+                "label": "Lock PK002-13",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-14",
+                "label": "Lock PK002-14",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-15",
+                "label": "Lock PK002-15",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-16",
+                "label": "Lock PK002-16",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-17",
+                "label": "Lock PK002-17",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-18",
+                "label": "Lock PK002-18",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-19",
+                "label": "Lock PK002-19",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-20",
+                "label": "Lock PK002-20",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-21",
+                "label": "Lock PK002-21",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-22",
+                "label": "Lock PK002-22",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-23",
+                "label": "Lock PK002-23",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-24",
+                "label": "Lock PK002-24",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-25",
+                "label": "Lock PK002-25",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-26",
+                "label": "Lock PK002-26",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-27",
+                "label": "Lock PK002-27",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-28",
+                "label": "Lock PK002-28",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-29",
+                "label": "Lock PK002-29",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-30",
+                "label": "Lock PK002-30",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-31",
+                "label": "Lock PK002-31",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              },
+              {
+                "lock_id": "PK002-32",
+                "label": "Lock PK002-32",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "UP"
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768551700062,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 15:21:40",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN"
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768552449469,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 15:34:09",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN",
+                "session_list": []
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768562005421,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 18:13:25",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN",
+                "session_list": []
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768562359661,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 18:19:19",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN",
+                "session_list": []
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768562746397,
+    "date": "2026-01-16",
+    "created_at": "2026-01-16 18:25:46",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN",
+                "session_list": []
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768619450895,
+    "date": "2026-01-17",
+    "created_at": "2026-01-17 10:10:50",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN",
+                "session_list": []
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  },
+  {
+    "id": 1768619904459,
+    "date": "2026-01-17",
+    "created_at": "2026-01-17 10:18:24",
+    "stats": {
+      "total_revenue": 0,
+      "total_sessions": 0
+    },
+    "details": [
+      {
+        "backend_id": "36_50_54_183_3000",
+        "backend_name": "Bãi 1",
+        "devices": [
+          {
+            "device_id": "PK001",
+            "name": "Device PK001",
+            "lockers": [
+              {
+                "lock_id": "PK001-01",
+                "label": "Lock PK001-01",
+                "revenue": 0,
+                "sessions": 0,
+                "status": "DOWN",
+                "session_list": []
+              }
+            ]
+          }
+        ],
+        "total_revenue": 0
+      }
+    ]
+  }
+]

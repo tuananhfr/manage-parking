@@ -1,0 +1,8 @@
+{
+  "intervalSeconds": 5,
+  "periodValue": 1,
+  "periodUnit": "hour",
+  "enabledCameraIds": [
+    "vn_phng"
+  ]
+}

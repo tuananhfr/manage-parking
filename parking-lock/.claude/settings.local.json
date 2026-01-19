@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(if exist node_modules.vite rmdir /s /q node_modules.vite)",
+      "Bash(cat:*)"
+    ]
+  }
+}

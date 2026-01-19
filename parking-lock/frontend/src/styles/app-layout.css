@@ -1,0 +1,420 @@
+/**
+ * App Layout Styles - Modern Navigation & Container
+ * Clean, Minimal, Professional Design
+ */
+
+@import './variables.css';
+
+/* ========================================
+   APP CONTAINER
+   ======================================== */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-secondary);
+}
+
+/* ========================================
+   NAVIGATION BAR - Modern & Clean
+   ======================================== */
+
+.app-navbar {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  height: var(--header-height);
+}
+
+.navbar-container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-8);
+}
+
+/* Brand Section */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.brand-name {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.brand-subtitle {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Navigation Menu */
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-4);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-item i {
+  font-size: 1.1rem;
+}
+
+.nav-item:hover {
+  background-color: var(--color-gray-100);
+  color: var(--color-text-primary);
+}
+
+.nav-item.active {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.nav-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+}
+
+.nav-badge {
+  padding: 2px 6px;
+  background-color: var(--color-danger);
+  color: white;
+  font-size: 10px;
+  border-radius: var(--radius-full);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Navbar Actions */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+  flex-shrink: 0;
+}
+
+/* System Status Indicator */
+.system-status {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: var(--radius-md);
+  background-color: var(--color-success-light);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.status-dot.online {
+  background-color: var(--color-success);
+}
+
+.status-dot.online::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color-success);
+  opacity: 0.3;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.status-text {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-success-dark);
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  border-radius: var(--radius-md);
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.mobile-menu-toggle:hover {
+  background-color: var(--color-gray-100);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-lg);
+  padding: var(--spacing-4);
+  flex-direction: column;
+  gap: var(--spacing-2);
+  z-index: var(--z-dropdown);
+}
+
+.mobile-nav-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  padding: var(--spacing-3) var(--spacing-4);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.mobile-nav-item i {
+  font-size: 1.25rem;
+  width: 24px;
+}
+
+.mobile-nav-item:hover {
+  background-color: var(--color-gray-100);
+  color: var(--color-text-primary);
+}
+
+.mobile-nav-item.active {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+/* ========================================
+   MAIN CONTENT AREA
+   ======================================== */
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  max-width: var(--container-max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--spacing-8) var(--spacing-6);
+  flex: 1;
+}
+
+/* ========================================
+   PAGE HEADER - Consistent Styling
+   ======================================== */
+
+.page-header {
+  margin-bottom: var(--spacing-8);
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-2);
+}
+
+.page-title i {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.page-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Page Actions (buttons in header) */
+.page-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  margin-top: var(--spacing-4);
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 1200px) {
+  .navbar-menu {
+    gap: var(--spacing-1);
+  }
+
+  .nav-item {
+    padding: var(--spacing-2) var(--spacing-3);
+    font-size: var(--font-size-xs);
+  }
+
+  .brand-name {
+    font-size: var(--font-size-base);
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Hide desktop menu, show mobile toggle */
+  .navbar-menu {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+
+  .system-status {
+    display: none;
+  }
+
+  .navbar-container {
+    padding: 0 var(--spacing-4);
+  }
+
+  .app-content {
+    padding: var(--spacing-6) var(--spacing-4);
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.1rem;
+  }
+
+  .brand-name {
+    font-size: var(--font-size-sm);
+  }
+
+  .page-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .page-title i {
+    font-size: 1.5rem;
+  }
+
+  .app-content {
+    padding: var(--spacing-4);
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 var(--spacing-3);
+  }
+
+  .brand-text {
+    display: none;
+  }
+
+  .app-content {
+    padding: var(--spacing-3);
+  }
+
+  .page-header {
+    margin-bottom: var(--spacing-6);
+  }
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+
+@media print {
+  .app-navbar {
+    display: none;
+  }
+
+  .app-content {
+    padding: 0;
+    max-width: 100%;
+  }
+}

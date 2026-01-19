@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+onnxruntime==1.20.0
+opencv-python-headless==4.10.0.84
+PyQt6==6.7.1
+PyQt6-Qt6==6.7.3
+PyQt6-sip==13.8.0
+numpy==1.26.4
+pyyaml==6.0.2
+# Torch CPU-only để tránh lỗi DLL/CUDA trên Windows
+torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
+# Pin ultralytics ổn định, chạy YOLO trên CPU
+ultralytics==8.2.103
+onnx==1.16.1
+requests==2.31.0
+watchdog==4.0.0
+python-multipart
